@@ -4,113 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+
     <title>Denis Novik</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a href="#section1">Home</a></li>
-                <li><a href="#section2">About me</a></li>
-                <li><a href="#section3">Skills</a></li>
-                <li><a href="#section4">Portfolio</a></li>
-                <li><a href="#section5">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="section1">
+        <section id="home" class="visual-section">
             <h1>Denis Novik</h1>
-            <div>
-                <img src="./src/DenisNovik.jpg" alt="Denis Novik">
+            <div class="hero-image">
+                <img src="./src/DenisNovik.jpg" alt="Denis Novik" width: 970px; height: 387px;
+                >
             </div>
         </section>
-        <section id="section2">
-            <h2>About me</h2>
-            <div>Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</div>
-            <div>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</div>
-            <div>Ready to implement excellent projects with wonderful people.</div>
+        <section id="aboutme" class="visual-section text ">
+            <h2 class="title">About me</h2>
+            <p>Hi, I'm Denis - UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
+            <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects with wonderful people.</p>
         </section>
-        <section id="section3">
+        <section id="skills" class="visual-section item">
             <h2>Skills</h2>
             <p>I work in such programs as</p>
             <ul>
                 <li>
                     <div>
-                        <img src="./src/Ps.svg" alt="Adobe Photoshop">
-                        <h3>Adobe Photoshop</h3>
-                        <img src="./src/rating1.svg" alt="Two stars">
+                    <img src="./src/Ps.svg" alt="Adobe Photoshop">
+                    </div>
+                    <h3>Adobe Photoshop</h3>
+                    <div>
+                    <img src="./src/rating1.svg" alt="Two stars">
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src="./src/Ai.svg" alt="Adobe Illustrator">
-                        <h3>Adobe Illustrator</h3>
-                        <img src="./src/rating2.svg" alt="Three stars">
+                    <img src="./src/Ai.svg" alt="Adobe Illustrator">
+                    </div>
+                    <h3>Adobe Illustrator</h3>
+                    <div><img src="./src/rating2.svg" alt="Three stars">
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src="./src/Ae.svg" alt="Adobe After Effects">
-                        <h3>Adobe After Effects</h3>
-                        <img src="./src/rating3.svg" alt="Four stars">
+                    <img src="./src/Ae.svg" alt="Adobe After Effects">
+                    </div>
+                    <h3>Adobe After Effects</h3>
+                    <div>
+                    <img src="./src/rating3.svg" alt="Four stars">
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src="./src/Figma.svg" alt="Figma">
-                        <h3>Figma</h3>
-                        <img src="./src/rating4.svg" alt="Five stars">
+                    <img src="./src/Figma.svg" alt="Figma">
+                    </div>
+                    <h3>Figma</h3>
+                    <div><img src="./src/rating4.svg" alt="Five stars">
                     </div>
                 </li>
             </ul>
         </section>
-       <section id="section4">
-        <h2>Portfolio</h2>
-        <div>
+        <section id="portfolio" class="visual-section text">
+            <h2>Portfolio</h2>
+            <div>
+                <img src="./src/Fashion-Store.jpg" alt="Fashion-Store">
+            </div>
+            <a href="#">Online fashion store - Homepage</a>
+            <div>
+                <img src="./src/reebok_web.jpg" alt="reebok_web">
+            </div>
+            <a href="#">Reebok Store - Concept</a>
+            <div>
+                <img src="./src/braun-landing.jpg" alt="braun-landing">
+            </div>
+            <a href="#">Braun Landing Page - Concept</a>
+            </section>
+        <section id="contacts" class="visual-section item">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat? You are welcome!</p>
+            <button>Send message</button>
             <ul>
                 <li>
-                    <div>
-                        <img src="./src/Fashion-Store.jpg" alt="Fashion-Store">
-                        <p><a href="Online fashion store - Homepage">Online fashion store - Homepage</a></p>
-                    </div>
+                    <a href="#">
+                        <img src="./src/linkedin.svg" alt="linkedin">
+                    </a>
                 </li>
                 <li>
-                    <div>
-                        <img src="./src/reebok_web.jpg" alt="reebok_web">
-                        <p><a href="Reebok Store - Concept">Reebok Store - Concept</a></p>
-                    </div>
+                    <a href="#">
+                        <img src="./src/instagram.svg" alt="instagram">
+                    </a>
+                </li>
                 <li>
-                    <div>
-                        <img src="./src/braun-landing.jpg" alt="braun-landing">
-                        <p><a href="Braun Landing Page - Concept">Braun Landing Page - Concept</a></p>
-                    </div>
+                    <a href="#">
+                        <img src="./src/behance.svg" alt="behance">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/dribbble.svg" alt="dribbble">
+                    </a>
                 </li>
             </ul>
-        </div>
-       </section>
-       <section id="section5">
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat? You are welcome!</p>
-        <button>Send message</button>
-        <ul>
-            <li>
-                <a href="#"></a>
-                <img src="./src/linkedin.svg" alt="linkedin">
-            </li>
-            <li>
-                <a href="#"></a>
-                <img src="./src/instagram.svg" alt="instagram">
-            </li>
-            <li>
-                <a href="#"></a>
-                <img src="./src/behance.svg" alt="behance">
-            </li>
-            <li>
-                <a href="#"></a>
-                <img src="./src/dribbble.svg" alt="dribbble">
-            </li>
-        </ul>
         <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
        </section>
     </main>
