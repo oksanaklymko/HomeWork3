@@ -1,0 +1,32 @@
+.menu {
+    padding-left: 235px;
+    padding-right: 235px;
+    text-decoration: none;
+}
+.visual-section {
+    color: #070707;
+    padding-left: 235px;
+    padding-right: 235px;
+    font-size: 18px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: left;
+}
+.hero-image {
+    width: 970px;
+    height: 387px;
+    background: url(valentin-salja-1058467-unsplash.jpg);
+}
+.title {
+    font-size: 34px;
+}
+.text {
+    text-align: center;
+    background-color: #E5E5E5;
+}
+.item {
+    text-align: center;
+}
